@@ -1,0 +1,383 @@
+{
+    "general_setting": {
+        "keyword": [
+            "general",
+            "fundamental",
+            "site information",
+            "site",
+            "website settings",
+            "basic settings",
+            "global settings",
+            "site color",
+            "timezone",
+            "site currency",
+            "pagination",
+            "currency format",
+            "site title",
+            "base color",
+            "secondary color",
+            "paginate"
+        ],
+        "title": "General Setting",
+        "subtitle": "Configure the fundamental information of the site.",
+        "icon": "las la-cog",
+        "route_name": "admin.setting.general"
+    },
+    "system_configuration": {
+        "keyword": [
+            "basic modules",
+            "control",
+            "modules",
+            "system",
+            "configuration settings",
+            "system control",
+            "force ssl",
+            "force secure password",
+            "kyc control",
+            "email control",
+            "sms control",
+            "verification control",
+            "push notification control",
+            "language control",
+            "mobile verification",
+            "email verification"
+        ],
+        "title": "System Configuration",
+        "subtitle": "Control all of the basic modules of the system.",
+        "icon": "las la-cogs",
+        "route_name": "admin.setting.system.configuration"
+    },
+    "api_setting": {
+        "keyword": ["api", "odds", "odds_api", "bet api"],
+        "title": "API Setting",
+        "subtitle": "Configure the odds api configuration.",
+        "icon": "las la-cog",
+        "route_name": "admin.setting.api"
+    },
+    "logo_favicon": {
+        "keyword": [
+            "branding",
+            "identity",
+            "logo upload",
+            "site branding",
+            "brand identity",
+            "favicon",
+            "website icon",
+            "website favicon",
+            "website logo"
+        ],
+        "title": "Logo and Favicon",
+        "subtitle": "Upload your logo and favicon here.",
+        "icon": "las la-images",
+        "route_name": "admin.setting.logo.icon"
+    },
+    "referral_setting": {
+        "keyword": [
+            "referral",
+            "bonus",
+            "Deposit Commission",
+            "Bet Place Commission",
+            "Bet Win Commission",
+            "Percentage"
+        ],
+        "title": "Referral Setting",
+        "subtitle": "Configure the referral setting of the site.",
+        "icon": "las la-sitemap",
+        "route_name": "admin.referral.index"
+    },
+    "notification_setting": {
+        "keyword": [
+            "email configuration",
+            "sms configure",
+            "push notification configure",
+            "email setting",
+            "sms setting",
+            "push notification setting",
+            "firebase setting",
+            "firebase control",
+            "email template",
+            "sms template",
+            "push notification template",
+            "notification template",
+            "smtp",
+            "sendgrid",
+            "send grid",
+            "mailjet",
+            "mail jet",
+            "php",
+            "nexmo",
+            "clickatell",
+            "click a tell",
+            "infobip",
+            "info bip",
+            "message bird",
+            "sms broadcast",
+            "twilio",
+            "text magic",
+            "custom api",
+            "template setting",
+            "global template",
+            "global notification"
+        ],
+        "title": "Notification Setting",
+        "subtitle": "Control and configure overall notification elements of the system.",
+        "icon": "las la-bell",
+        "route_name": "admin.setting.notification.global.email"
+    },
+    "payment_gateways": {
+        "keyword": [
+            "automatic",
+            "manual",
+            "configure payment gateways",
+            "aamarpay",
+            "amarpay",
+            "authorize",
+            "autorize.net",
+            "btcpay",
+            "btc pay",
+            "binance",
+            "blockchain",
+            "cashmaal",
+            "checkout",
+            "coinbase commerce",
+            "coingate",
+            "coinpayments",
+            "flutterwave",
+            "instamojo",
+            "mercado pago",
+            "mollie",
+            "nmi",
+            "now payments",
+            "nowpayments",
+            "payeer",
+            "paypal",
+            "paystack",
+            "paytm",
+            "perfect money",
+            "perfectmoney",
+            "razorpay",
+            "skrill",
+            "sslcommerz",
+            "stripe",
+            "twocheckout",
+            "two checkout",
+            "2checkout"
+        ],
+        "title": "Payment Gateways",
+        "subtitle": "Configure automatic or manual payment gateways to accept payment from users.",
+        "icon": "las la-credit-card",
+        "route_name": "admin.gateway.automatic.index"
+    },
+    "withdrawals_methods": {
+        "keyword": [
+            "manual withdrawal",
+            "payout",
+            "payment withdrawal",
+            "withdrawal options",
+            "withdrawal settings",
+            "payout methods",
+            "payout settings",
+            "configure withdrawals",
+            "configure payouts"
+        ],
+        "title": "Withdrawals Methods",
+        "subtitle": "Setup manual withdrawal method so that users of the system can make payout requests through those methods.",
+        "icon": "la la-bank",
+        "route_name": "admin.withdraw.method.index"
+    },
+    "kyc_setting": {
+        "keyword": [
+            "KYC",
+            "verification",
+            "kyc verification",
+            "identity verification",
+            "KYC settings",
+            "client verification",
+            "KYC configuration",
+            "customer verification"
+        ],
+        "title": "KYC Setting",
+        "subtitle": "Configure the dynamic input field to collect information of your client if you need.",
+        "icon": "las la-user-check",
+        "route_name": "admin.kyc.setting"
+    },
+    "manage_frontend": {
+        "keyword": [
+            "frontend",
+            "template",
+            "manage frontend",
+            "frontend contents",
+            "frontend settings",
+            "about us",
+            "banner",
+            "contact",
+            "faq",
+            "social icons",
+            "section settings",
+            "subscribe"
+        ],
+        "title": "Manage Frontend",
+        "subtitle": "Control all of the frontend contents of the system.",
+        "icon": "la la-html5",
+        "route_name": "admin.frontend.index",
+        "params": {
+            "key": "policy_pages"
+        }
+    },
+    "seo_configuration": {
+        "keyword": [
+            "SEO",
+            "meta title",
+            "meta description",
+            "meta keywords",
+            "optimization",
+            "meta tags",
+            "SEO configuration"
+        ],
+        "title": "SEO Configuration",
+        "subtitle": "Configure proper meta title, meta description, meta keywords, etc to make the system SEO-friendly.",
+        "icon": "las la-globe",
+        "route_name": "admin.seo"
+    },
+    "social_login_setting": {
+        "keyword": [
+            "social login",
+            "social media",
+            "authentication",
+            "social media login",
+            "social media authentication",
+            "facebook login",
+            "google login",
+            "linkedin login"
+        ],
+        "title": "Social Login Setting",
+        "subtitle": "Provide the required information here to use the login system by social media.",
+        "icon": "las la-user-circle",
+        "route_name": "admin.setting.socialite.credentials"
+    },
+    "language": {
+        "keyword": [
+            "language",
+            "localize",
+            "translation",
+            "translate",
+            "internationalization",
+            "language settings",
+            "localization settings",
+            "translation settings",
+            "configure languages",
+            "configure localization"
+        ],
+        "title": "Language",
+        "subtitle": "Configure your required languages and keywords to localize the system.",
+        "icon": "las la-language",
+        "route_name": "admin.language.manage"
+    },
+    "extensions": {
+        "keyword": [
+            "extensions",
+            "plugins",
+            "addons",
+            "extension settings",
+            "plugin settings",
+            "addon settings",
+            "captcha",
+            "custom captcha",
+            "google captcha",
+            "recaptcha",
+            "re-captcha",
+            "re captcha",
+            "tawk",
+            "tawk.to",
+            "tawk to",
+            "analytics",
+            "google analytics",
+            "facebook comment"
+        ],
+        "title": "Extensions",
+        "subtitle": "Manage extensions of the system here to extend some extra features of the system.",
+        "icon": "las la-puzzle-piece",
+        "route_name": "admin.extensions.index"
+    },
+    "cron_jobs": {
+        "keyword": ["cron jobs", "automate operations", "schedule", "automate", "tasks", "cron job settings", "task scheduling", "automation settings", "configure cron job", "configure tasks"],
+        "title": "Cron Jobs",
+        "subtitle": "Configure cron jobs to automate various system operations.",
+        "icon": "las la-clock",
+        "route_name": "admin.cron.index"
+    },
+    "policy_pages": {
+        "keyword": [
+            "privacy and policy",
+            "terms and condition",
+            "terms of service"
+        ],
+        "title": "Policy Pages",
+        "subtitle": "Configure your policy and terms of the system here.",
+        "icon": "las la-shield-alt",
+        "route_name": "admin.frontend.sections",
+        "params": {
+            "key": "policy_pages"
+        }
+    },
+    "maintenance_mode": {
+        "keyword": [
+            "maintenance mode",
+            "system maintenance",
+            "maintenance settings",
+            "enable maintenance",
+            "disable maintenance",
+            "maintenance configuration"
+        ],
+        "title": "Maintenance Mode",
+        "subtitle": "Enable or disable the maintenance mode of the system when required.",
+        "icon": "las la-robot",
+        "route_name": "admin.maintenance.mode"
+    },
+    "gdpr_cookie": {
+        "keyword": [
+            "GDPR cookie",
+            "cookie policy",
+            "data privacy",
+            "GDPR settings",
+            "cookie policy settings",
+            "data privacy settings"
+        ],
+        "title": "GDPR Cookie",
+        "subtitle": "Set GDPR Cookie policy if required. It will ask visitor of the system to accept if enabled.",
+        "icon": "las la-cookie-bite",
+        "route_name": "admin.setting.cookie"
+    },
+    "custom_css": {
+        "keyword": [
+            "custom CSS",
+            "modify styles",
+            "frontend",
+            "styling",
+            "design customization",
+            "CSS settings",
+            "style settings",
+            "frontend customization",
+            "design settings",
+            "customize CSS"
+        ],
+        "title": "Custom CSS",
+        "subtitle": "Write custom css here to modify some styles of frontend of the system if you need to.",
+        "icon": "lab la-css3-alt",
+        "route_name": "admin.setting.custom.css"
+    },
+    "sitemap": {
+        "keyword": ["Site map", "sitemap", "xml", "sitemap.xml"],
+        "title": "Sitemap XML",
+        "subtitle": "Insert the sitemap XML here to enhance SEO performance.",
+        "icon": "las la-sitemap",
+        "route_name": "admin.setting.sitemap"
+    },
+    "robots": {
+        "keyword": ["Robots", "txt", "robots.txt", "robot.txt"],
+        "title": "Robots txt",
+        "subtitle": "Insert the robots.txt content here to enhance bot web crawlers and instruct them on how to interact with certain areas of the website.",
+        "icon": "las la-robot",
+        "route_name": "admin.setting.robot"
+    }
+}

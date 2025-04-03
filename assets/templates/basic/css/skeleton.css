@@ -1,0 +1,43 @@
+.loading .betslip__list-content span {
+    margin-bottom: 2px;
+}
+
+.loading .betslip__list-ratio {
+    border: unset;
+}
+
+.loading button,
+.loading .betslip__list-match,
+.loading .betslip__list-team,
+.loading .betslip__list-question,
+.loading .betslip__list-text,
+.loading .betslip__list-ratio span,
+.loading .betslip-right {
+    background: #c1c1c1;
+    min-height: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.loading button::before,
+.loading .betslip__list-match::before,
+.loading .betslip__list-team::before,
+.loading .betslip__list-question::before,
+.loading .betslip__list-text::before,
+.loading .betslip__list-ratio span::before,
+.loading .betslip-return::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #d7d7d7, transparent);
+    transform: translateX(-100%);
+    animation: loading 0.5s infinite;
+}
+
+@keyframes loading {
+    100% {
+        transform: translateX(100%);
+    }
+}

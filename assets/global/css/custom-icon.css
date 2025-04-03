@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'MyIconFont';
+  src: url('../../global/webfonts/custom-fonts.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-icon {
+  font-family: 'MyIconFont';
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.custom-icon.american-football::before {
+  content: "\e900";
+}
+
+.custom-icon.baccarat::before {
+  content: '\e901';
+}
+
+.custom-icon.badminton::before {
+  content: '\e902';
+}
+
+.custom-icon.baseball::before {
+  content: '\e903';
+}
+
+.custom-icon.basketball::before {
+  content: '\e904';
+}
+
+.custom-icon.battleships::before {
+  content: '\e905';
+}
+
+.custom-icon.beach-volleyball::before {
+  content: '\e906';
+}
+
+.custom-icon.boat-racing::before {
+  content: '\e907';
+}
+
+.custom-icon.boxing::before {
+  content: '\e908';
+}
+
+.custom-icon.card-football::before {
+  content: '\e909';
+}
+
+.custom-icon.cricket::before {
+  content: '\e90a';
+}
+
+.custom-icon.golf::before {
+  content: '\e90b';
+}
+
+.custom-icon.horse-racing::before {
+  content: '\e90c';
+}
+
+.custom-icon.ice-hockey::before {
+  content: '\e90d';
+}
+
+.custom-icon.lacrosse::before {
+  content: '\e90e';
+}
+
+.custom-icon.mixed-martial-arts::before {
+  content: '\e90f';
+}
+
+.custom-icon.politics::before {
+  content: '\e910';
+}
+
+.custom-icon.rugby-league::before {
+  content: '\e911';
+}
+
+.custom-icon.soccer::before {
+  content: '\e912';
+}
+
+.custom-icon.table-tennis::before {
+  content: '\e913';
+}
+
+.custom-icon.tennis::before {
+  content: '\e914';
+}
+
+.custom-icon.aussie-rules::before {
+  content: '\e916';
+}

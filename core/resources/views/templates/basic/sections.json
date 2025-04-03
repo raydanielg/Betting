@@ -1,0 +1,205 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "element": {
+            "images": {
+                "image": {
+                    "size": "1610x300"
+                }
+            },
+            "modal": true
+        }
+    },
+    "contact": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "images": {
+                "background_image": {
+                    "size": "1600x1100"
+                }
+            },
+            "heading": "text"
+        },
+        "element": {
+            "icon": "icon",
+            "heading": "text",
+            "details": "text",
+            "modal": true
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "heading": "text",
+            "details": "text"
+        },
+        "element": {
+            "images": {
+                "payment_method_image": {
+                    "size": "130x50"
+                }
+            },
+            "modal": true
+        }
+    },
+    "blog": {
+        "builder": true,
+        "name": "News Section",
+        "element": {
+            "images": {
+                "image": {
+                    "size": "830x500",
+                    "thumb": "415x250"
+                }
+            },
+            "title": "text",
+            "slug": "title",
+            "description": "textarea-nic",
+            "modal": false,
+            "seo": true
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "slug": "title",
+            "details": "textarea-nic",
+            "modal": false,
+            "seo": true
+        }
+    },
+    "login": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Login Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1380x1150"
+                },
+                "background_image": {
+                    "size": "1920x1070"
+                }
+            },
+            "heading": "text"
+        }
+    },
+    "register": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Register Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1380x1150"
+                },
+                "background_image": {
+                    "size": "1920x1070"
+                }
+            },
+            "heading": "text"
+        }
+    },
+    "forget_password": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Forget Password Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1380x1150"
+                },
+                "background_image": {
+                    "size": "1920x1070"
+                }
+            }
+        }
+    },
+    "code_verify": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Verification Code Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1380x1150"
+                },
+                "background_image": {
+                    "size": "1920x1070"
+                }
+            }
+        }
+    },
+    "reset_password": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Reset Password Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1380x1150"
+                },
+                "background_image": {
+                    "size": "1920x1070"
+                }
+            }
+        }
+    },
+    "user_ban": {
+        "builder": true,
+        "no_selection": true,
+        "name": "User Ban Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1380x1150"
+                },
+                "background_image": {
+                    "size": "1920x1070"
+                }
+            }
+        }
+    },
+    "kyc_instructions": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Kyc Instructions",
+        "content": {
+            "for_verification": "textarea",
+            "for_pending": "textarea",
+            "reject": "textarea"
+        }
+    },
+    "breadcrumb": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Breadcrumb Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x1070"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,919 @@
+{
+    "dashboard": {
+        "keyword": [
+            "Dashboard",
+            "Home",
+            "Panel",
+            "Admin",
+            "Control center",
+            "Overview",
+            "Main hub",
+            "Management hub",
+            "Administrative hub",
+            "Central hub",
+            "Command center",
+            "Administrator portal",
+            "Centralized interface",
+            "Admin console",
+            "Management dashboard",
+            "Main screen",
+            "Administrative dashboard",
+            "Command dashboard",
+            "Main control panel"
+        ],
+        "title": "Dashboard",
+        "icon": "las la-home",
+        "route_name": "admin.dashboard",
+        "menu_active": "admin.dashboard"
+    },
+    "manage_users": {
+        "title": "Manage Bettors",
+        "icon": "las la-users",
+        "counters": [
+            "bannedUsersCount",
+            "emailUnverifiedUsersCount",
+            "mobileUnverifiedUsersCount",
+            "kycUnverifiedUsersCount",
+            "kycPendingUsersCount"
+        ],
+        "menu_active": "admin.users*",
+        "submenu": [
+            {
+                "keyword": [
+                    "active bettors",
+                    "Manage Bettors",
+                    "Bettor management",
+                    "Bettor control",
+                    "Bettor status",
+                    "Bettor activity",
+                    "Bettor analytics"
+                ],
+                "title": "Active Bettors",
+                "route_name": "admin.users.active",
+                "menu_active": "admin.users.active"
+            },
+            {
+                "keyword": [
+                    "banned bettors",
+                    "Manage Bettors",
+                    "User management",
+                    "Account bans",
+                    "User activity"
+                ],
+                "title": "Banned Bettors",
+                "route_name": "admin.users.banned",
+                "menu_active": "admin.users.banned",
+                "counter": "bannedUsersCount"
+            },
+            {
+                "keyword": [
+                    "email unverified bettors",
+                    "Manage Bettors",
+                    "Bettor verification",
+                    "Bettor authentication",
+                    "Bettor management"
+                ],
+                "title": "Email Unverified",
+                "route_name": "admin.users.email.unverified",
+                "menu_active": "admin.users.email.unverified",
+                "counter": "emailUnverifiedUsersCount"
+            },
+            {
+                "keyword": [
+                    "mobile unverified bettors",
+                    "Manage Bettors",
+                    "Bettor verification",
+                    "Bettor authentication",
+                    "Bettor management"
+                ],
+                "title": "Mobile Unverified",
+                "route_name": "admin.users.mobile.unverified",
+                "menu_active": "admin.users.mobile.unverified",
+                "counter": "mobileUnverifiedUsersCount"
+            },
+            {
+                "keyword": [
+                    "kyc unverified bettors",
+                    "Manage Bettors",
+                    "Bettor verification",
+                    "Bettor authentication",
+                    "Bettor management"
+                ],
+                "title": "KYC Unverified",
+                "route_name": "admin.users.kyc.unverified",
+                "menu_active": "admin.users.kyc.unverified",
+                "counter": "kycUnverifiedUsersCount"
+            },
+            {
+                "keyword": [
+                    "kyc pending bettors",
+                    "Manage Bettors",
+                    "Bettor verification",
+                    "Bettor authentication",
+                    "Bettor management"
+                ],
+                "title": "KYC Pending",
+                "route_name": "admin.users.kyc.pending",
+                "menu_active": "admin.users.kyc.pending",
+                "counter": "kycPendingUsersCount"
+            },
+            {
+                "keyword": [
+                    "with balance bettors",
+                    "Manage Bettors",
+                    "Bettor management",
+                    "Bettor activity",
+                    "Account management"
+                ],
+                "title": "With Balance",
+                "route_name": "admin.users.with.balance",
+                "menu_active": "admin.users.with.balance"
+            },
+            {
+                "keyword": [
+                    "all bettors",
+                    "Manage Bettors",
+                    "Bettor management",
+                    "Bettor control",
+                    "Bettor activity",
+                    "Bettor analytics"
+                ],
+                "title": "All Bettors",
+                "route_name": "admin.users.all",
+                "menu_active": "admin.users.all"
+            },
+            {
+                "keyword": [
+                    "send notification bettors",
+                    "Manage Bettors",
+                    "Bettor notifications",
+                    "Bettor management",
+                    "Bettor activity"
+                ],
+                "title": "Send Notification",
+                "route_name": "admin.users.notification.all",
+                "menu_active": "admin.users.notification.all"
+            }
+        ]
+    },
+    "categories": {
+        "segment": "BETTING",
+        "keyword": [
+            "category",
+            "sports group"
+        ],
+        "title": "Categories",
+        "icon": "las la-futbol",
+        "route_name": "admin.category.index",
+        "menu_active": "admin.category.index"
+    },
+    "teams": {
+        "segment": "BETTING",
+        "keyword": [
+            "team",
+            "manage teams"
+        ],
+        "title": "Teams",
+        "icon": "las la-users",
+        "route_name": "admin.team.index",
+        "menu_active": "admin.team.index"
+    },
+    "mange_leagues": {
+        "segment": "BETTING",
+        "title": "Leagues",
+        "icon": "la la-spotify",
+        "menu_active": [
+            "admin.league*"
+        ],
+        "submenu": [
+            {
+                "keyword": [
+                    "leagues",
+                    "sports",
+                    "in-season leagues",
+                    "in season leagues",
+                    "inseason leagues",
+                    "running leagues"
+                ],
+                "title": "In Season",
+                "route_name": "admin.league.inseason",
+                "menu_active": "admin.league.inseason"
+            },
+            {
+                "keyword": [
+                    "leagues",
+                    "sports",
+                    "inseason and enabled leagues"
+                ],
+                "title": "In Season & Enabled",
+                "route_name": "admin.league.inseason.enabled",
+                "menu_active": "admin.league.inseason.enabled"
+            },
+            {
+                "keyword": [
+                    "leagues",
+                    "sports",
+                    "api leagues",
+                    "api sports key leagues"
+                ],
+                "title": "API-Enabled",
+                "route_name": "admin.league.api.enabled",
+                "menu_active": "admin.league.api.enabled"
+            },
+            {
+                "keyword": [
+                    "leagues",
+                    "sports",
+                    "manual leagues",
+                    "no api sport key leagues"
+                ],
+                "title": "Manual Enabled",
+                "route_name": "admin.league.manual.enabled",
+                "menu_active": "admin.league.manual.enabled"
+            },
+            {
+                "keyword": [
+                    "leagues",
+                    "sports",
+                    "inseason and disabled leagues"
+                ],
+                "title": "In Season & Disabled",
+                "route_name": "admin.league.inseason.disabled",
+                "menu_active": "admin.league.inseason.disabled"
+            },
+            {
+                "keyword": [
+                    "leagues",
+                    "sports",
+                    "manage leagues"
+                ],
+                "title": "All Leagues",
+                "route_name": "admin.league.index",
+                "menu_active": "admin.league.index"
+            }
+        ]
+    },
+    "manage_games": {
+        "segment": "BETTING",
+        "title": "Manage Games",
+        "icon": "las la-gamepad",
+        "menu_active": [
+            "admin.game*",
+            "admin.market*"
+        ],
+        "submenu": [
+            {
+                "keyword": [
+                    "games",
+                    "manage games",
+                    "Bet Not Started",
+                    "Running Bets",
+                    "Not Open for Betting",
+                    "Bet Upcoming",
+                    "Upcoming Games",
+                    "Upcoming Bet"
+                ],
+                "title": "Not Open for Betting",
+                "route_name": "admin.game.not.open.for.betting",
+                "menu_active": "admin.game.not.open.for.betting"
+            },
+            {
+                "keyword": [
+                    "games",
+                    "Bet Started",
+                    "Running Bets",
+                    "Open for Betting",
+                    "Bets Running",
+                    "Active Bets",
+                    "Running Games",
+                    "Active Games"
+                ],
+                "title": "Open for Betting",
+                "route_name": "admin.game.open.for.betting",
+                "menu_active": "admin.game.open.for.betting"
+            },
+            {
+                "keyword": [
+                    "games",
+                    "markets",
+                    "closed for betting"
+                ],
+                "title": "Closed for Betting",
+                "route_name": "admin.game.closed.for.betting",
+                "menu_active": "admin.game.closed.for.betting"
+            },
+            {
+                "keyword": [
+                    "games",
+                    "markets",
+                    "manage games",
+                    "running games",
+                    "inplay games",
+                    "in play games",
+                    "in-play games",
+                    "Running Bets",
+                    "Open for Betting",
+                    "Bets Running",
+                    "Active Bets",
+                    "Running Games",
+                    "Active Games"
+                ],
+                "title": "In Play Games",
+                "route_name": "admin.game.inplay",
+                "menu_active": "admin.game.inplay"
+            },
+            {
+                "keyword": [
+                    "markets",
+                    "games",
+                    "Upcoming Games",
+                    "Game Management",
+                    "Upcoming Markets",
+                    "Game Control",
+                    "Game Status",
+                    "Manage Markets",
+                    "Manage Outcomes"
+                ],
+                "title": "Upcoming Games",
+                "route_name": "admin.game.upcoming",
+                "menu_active": "admin.game.upcoming"
+            },
+            {
+                "keyword": [
+                    "markets",
+                    "games",
+                    "Ended Games",
+                    "Completed Games",
+                    "Ended Markets"
+                ],
+                "title": "Ended Games",
+                "route_name": "admin.game.ended",
+                "menu_active": "admin.game.ended"
+            },
+            {
+                "keyword": [
+                    "markets",
+                    "games",
+                    "Canceled Games",
+                    "Cancelled Games",
+                    "Voided Games",
+                    "Cancelled Markets"
+                ],
+                "title": "Cancelled Games",
+                "route_name": "admin.game.cancelled",
+                "menu_active": "admin.game.cancelled"
+            },
+            {
+                "keyword": [
+                    "games",
+                    "markets",
+                    "All Games"
+                ],
+                "title": "All Games",
+                "route_name": "admin.game.index",
+                "menu_active": "admin.game.index"
+            }
+        ]
+    },
+    "manage_bets": {
+        "segment": "BETTING",
+        "title": "Bets Placed",
+        "icon": "las la-clipboard-list",
+        "menu_active": "admin.bet*",
+        "counters": [
+            "pendingBetCount"
+        ],
+        "submenu": [
+            {
+                "keyword": [
+                    "bet",
+                    "bets",
+                    "bet placed",
+                    "Pending Bets",
+                    "Bets Management",
+                    "Bets Control",
+                    "Bet Statistics"
+                ],
+                "title": "Pending Bets",
+                "route_name": "admin.bet.pending",
+                "menu_active": "admin.bet.pending",
+                "counter": "pendingBetCount"
+            },
+            {
+                "keyword": [
+                    "Won Bets",
+                    "Bets Management",
+                    "Bets Control",
+                    "Bet Statistics"
+                ],
+                "title": "Won Bets",
+                "route_name": "admin.bet.won",
+                "menu_active": "admin.bet.won"
+            },
+            {
+                "keyword": [
+                    "bets",
+                    "placed",
+                    "Lose Bets",
+                    "Loss Bets"
+                ],
+                "title": "Loss Bets",
+                "route_name": "admin.bet.loss",
+                "menu_active": "admin.bet.loss"
+            },
+            {
+                "keyword": [
+                    "Refunded Bets",
+                    "Bets Management",
+                    "Bets Control",
+                    "Bet Statistics"
+                ],
+                "title": "Refunded Bets",
+                "route_name": "admin.bet.refunded",
+                "menu_active": "admin.bet.refunded"
+            },
+            {
+                "keyword": [
+                    "All Bets",
+                    "Bets Management",
+                    "Bets Control",
+                    "Bet Statistics"
+                ],
+                "title": "All Bets",
+                "route_name": "admin.bet.index",
+                "menu_active": "admin.bet.index"
+            }
+        ]
+    },
+    "outcomes": {
+        "segment": "BETTING",
+        "title": "Declare Outcomes",
+        "icon": "las la-coins",
+        "menu_active": "admin.outcomes.*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Outcomes",
+                    "Outcomes Management",
+                    "Outcomes Control",
+                    "Outcomes Statistics"
+                ],
+                "title": "Pending Outcomes",
+                "route_name": "admin.outcomes.declare.pending",
+                "menu_active": "admin.outcomes.declare.pending"
+            },
+            {
+                "keyword": [
+                    "Declared Outcomes",
+                    "Outcomes Management",
+                    "Outcomes Control",
+                    "Outcomes Statistics"
+                ],
+                "title": "Declared Outcomes",
+                "route_name": "admin.outcomes.declare.declared",
+                "menu_active": "admin.outcomes.declare.declared"
+            }
+        ]
+    },
+    "deposits": {
+        "segment": "MANAGE FINANCE",
+        "title": "Deposits",
+        "icon": "las la-file-invoice-dollar",
+        "counters": [
+            "pendingDepositsCount"
+        ],
+        "menu_active": "admin.deposit*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit control",
+                    "Deposit status",
+                    "Deposit activity"
+                ],
+                "title": "Pending Deposits",
+                "route_name": "admin.deposit.pending",
+                "menu_active": "admin.deposit.pending",
+                "counter": "pendingDepositsCount",
+                "params": {
+                    "user_id": ""
+                }
+            },
+            {
+                "keyword": [
+                    "Approved Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit activity"
+                ],
+                "title": "Approved Deposits",
+                "route_name": "admin.deposit.approved",
+                "menu_active": "admin.deposit.approved",
+                "params": {
+                    "user_id": ""
+                }
+            },
+            {
+                "keyword": [
+                    "Successful Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit activity"
+                ],
+                "title": "Successful Deposits",
+                "route_name": "admin.deposit.successful",
+                "menu_active": "admin.deposit.successful",
+                "params": {
+                    "user_id": ""
+                }
+            },
+            {
+                "keyword": [
+                    "Rejected Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit activity"
+                ],
+                "title": "Rejected Deposits",
+                "route_name": "admin.deposit.rejected",
+                "menu_active": "admin.deposit.rejected",
+                "params": {
+                    "user_id": ""
+                }
+            },
+            {
+                "keyword": [
+                    "Initiated Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit activity"
+                ],
+                "title": "Initiated Deposits",
+                "route_name": "admin.deposit.initiated",
+                "menu_active": "admin.deposit.initiated",
+                "params": {
+                    "user_id": ""
+                }
+            },
+            {
+                "keyword": [
+                    "All Deposits",
+                    "Deposits",
+                    "Deposit management",
+                    "Deposit control",
+                    "Deposit activity"
+                ],
+                "title": "All Deposits",
+                "route_name": "admin.deposit.list",
+                "menu_active": "admin.deposit.list",
+                "params": {
+                    "user_id": ""
+                }
+            }
+        ]
+    },
+    "withdrawals": {
+        "segment": "MANAGE FINANCE",
+        "title": "Withdrawals",
+        "icon": "la la-bank",
+        "counters": [
+            "pendingWithdrawCount"
+        ],
+        "menu_active": "admin.withdraw.data*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Withdrawals",
+                    "Withdrawals",
+                    "Withdrawal management",
+                    "Withdrawal control",
+                    "Withdrawal status",
+                    "Withdrawal activity"
+                ],
+                "title": "Pending Withdrawals",
+                "route_name": "admin.withdraw.data.pending",
+                "menu_active": "admin.withdraw.data.pending",
+                "counter": "pendingWithdrawCount",
+                "params": {
+                    "user_id": ""
+                }
+            },
+            {
+                "keyword": [
+                    "Approved Withdrawals",
+                    "Withdrawals",
+                    "Withdrawal management",
+                    "Withdrawal activity"
+                ],
+                "title": "Approved Withdrawals",
+                "route_name": "admin.withdraw.data.approved",
+                "menu_active": "admin.withdraw.data.approved",
+                "params": {
+                    "user_id": ""
+                }
+            },
+            {
+                "keyword": [
+                    "Rejected Withdrawals",
+                    "Withdrawals",
+                    "Withdrawal management",
+                    "Withdrawal activity"
+                ],
+                "title": "Rejected Withdrawals",
+                "route_name": "admin.withdraw.data.rejected",
+                "menu_active": "admin.withdraw.data.rejected",
+                "params": {
+                    "user_id": ""
+                }
+            },
+            {
+                "keyword": [
+                    "All Withdrawals",
+                    "Withdrawals",
+                    "Withdrawal management",
+                    "Withdrawal control",
+                    "Withdrawal activity"
+                ],
+                "title": "All Withdrawals",
+                "route_name": "admin.withdraw.data.all",
+                "menu_active": "admin.withdraw.data.all",
+                "params": {
+                    "user_id": ""
+                }
+            }
+        ]
+    },
+    "system_setting": {
+        "segment": "SETTINGS",
+        "keyword": [
+            "System Settings",
+            "setting",
+            "System configuration",
+            "System preferences",
+            "Configuration management",
+            "System setup"
+        ],
+        "title": "System Settings",
+        "icon": "las la-life-ring",
+        "route_name": "admin.setting.system",
+        "menu_active": [
+            "admin.referral.*",
+            "admin.setting.system",
+            "admin.setting.general",
+            "admin.setting.socialite.credentials",
+            "admin.cron*",
+            "admin.setting.system.configuration",
+            "admin.setting.logo.icon",
+            "admin.extensions.index",
+            "admin.language.manage",
+            "admin.language.key",
+            "admin.seo",
+            "admin.kyc.setting",
+            "admin.frontend.templates",
+            "admin.frontend.manage.*",
+            "admin.maintenance.mode",
+            "admin.setting.cookie",
+            "admin.setting.custom.css",
+            "admin.setting.sitemap",
+            "admin.setting.robot",
+            "admin.setting.notification.global.email",
+            "admin.setting.notification.global.sms",
+            "admin.setting.notification.global.push",
+            "admin.setting.notification.email",
+            "admin.setting.notification.sms",
+            "admin.setting.notification.push",
+            "admin.setting.notification.templates",
+            "admin.setting.notification.template.edit",
+            "admin.frontend.index",
+            "admin.frontend.sections*",
+            "admin.gateway*",
+            "admin.withdraw.method*",
+            "admin.setting.app.purchase"
+        ]
+    },
+    "support_ticket": {
+        "segment": "OTHERS",
+        "title": "Support Ticket",
+        "icon": "la la-ticket",
+        "counters": [
+            "pendingTicketCount"
+        ],
+        "menu_active": "admin.ticket*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Ticket",
+                    "Support Ticket",
+                    "Ticket management",
+                    "Ticket control",
+                    "Ticket status",
+                    "Ticket activity"
+                ],
+                "title": "Pending Ticket",
+                "route_name": "admin.ticket.pending",
+                "menu_active": "admin.ticket.pending",
+                "counter": "pendingTicketCount"
+            },
+            {
+                "keyword": [
+                    "Closed Ticket",
+                    "Support Ticket",
+                    "Ticket management",
+                    "Ticket activity"
+                ],
+                "title": "Closed Ticket",
+                "route_name": "admin.ticket.closed",
+                "menu_active": "admin.ticket.closed"
+            },
+            {
+                "keyword": [
+                    "Answered Ticket",
+                    "Support Ticket",
+                    "Ticket management",
+                    "Ticket activity"
+                ],
+                "title": "Answered Ticket",
+                "route_name": "admin.ticket.answered",
+                "menu_active": "admin.ticket.answered"
+            },
+            {
+                "keyword": [
+                    "All Ticket",
+                    "Support Ticket",
+                    "Ticket management",
+                    "Ticket control",
+                    "Ticket activity"
+                ],
+                "title": "All Ticket",
+                "route_name": "admin.ticket.index",
+                "menu_active": "admin.ticket.index"
+            }
+        ]
+    },
+    "reports": {
+        "segment": "OTHERS",
+        "title": "Report",
+        "icon": "la la-list",
+        "menu_active": "admin.report*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Transaction Log",
+                    "Report",
+                    "Transaction report",
+                    "Transaction history",
+                    "Transaction activity",
+                    "balance sheet",
+                    "balance log",
+                    "balance history"
+                ],
+                "title": "Transaction History",
+                "route_name": "admin.report.transaction",
+                "menu_active": [
+                    "admin.report.transaction",
+                    "admin.report.transaction.search"
+                ],
+                "params": {
+                    "user_id": ""
+                }
+            },
+            {
+                "keyword": [
+                    "Login History",
+                    "Report",
+                    "Login report",
+                    "Login history",
+                    "Login activity"
+                ],
+                "title": "Login History",
+                "route_name": "admin.report.login.history",
+                "menu_active": [
+                    "admin.report.login.history",
+                    "admin.report.login.ipHistory"
+                ]
+            },
+            {
+                "keyword": [
+                    "Notification History",
+                    "Report",
+                    "Notification report",
+                    "Notification history",
+                    "Notification activity",
+                    "email log",
+                    "email history",
+                    "sms log",
+                    "sms history",
+                    "push notification log",
+                    "push notification history"
+                ],
+                "title": "Notification History",
+                "route_name": "admin.report.notification.history",
+                "menu_active": "admin.report.notification.history"
+            },
+            {
+                "keyword": [
+                    "Referral Commissions",
+                    "Commissions Report",
+                    "Commissions history",
+                    "Commissions activity"
+                ],
+                "title": "Referral Commissions",
+                "route_name": "admin.report.referral.commissions",
+                "menu_active": "admin.report.referral.commissions"
+            }
+        ]
+    },
+    "extra": {
+        "segment": "OTHERS",
+        "title": "Extra",
+        "icon": "la la-server",
+        "menu_active": "admin.system*",
+        "counters": [
+            "updateAvailable"
+        ],
+        "submenu": [
+            {
+                "keyword": [
+                    "Application",
+                    "System",
+                    "Application management",
+                    "Application settings",
+                    "System information",
+                    "version",
+                    "laravel",
+                    "timezone"
+                ],
+                "title": "Application",
+                "route_name": "admin.system.info",
+                "menu_active": "admin.system.info"
+            },
+            {
+                "keyword": [
+                    "Server",
+                    "System",
+                    "Server management",
+                    "Server settings",
+                    "System information",
+                    "version",
+                    "php version",
+                    "software",
+                    "ip address",
+                    "server ip address",
+                    "server port",
+                    "http host"
+                ],
+                "title": "Server",
+                "route_name": "admin.system.server.info",
+                "menu_active": "admin.system.server.info"
+            },
+            {
+                "keyword": [
+                    "Cache",
+                    "System",
+                    "Cache management",
+                    "Cache optimization",
+                    "System performance",
+                    "clear cache"
+                ],
+                "title": "Cache",
+                "route_name": "admin.system.optimize",
+                "menu_active": "admin.system.optimize"
+            },
+            {
+                "keyword": [
+                    "Update",
+                    "System",
+                    "Update management",
+                    "System update",
+                    "Software updates",
+                    "version update",
+                    "upgrade",
+                    "latest version"
+                ],
+                "title": "Update",
+                "route_name": "admin.system.update",
+                "menu_active": "admin.system.update*",
+                "counter": "updateAvailable"
+            }
+        ]
+    },
+    "report_and_request": {
+        "segment": "OTHERS",
+        "keyword": [
+            "Report & Request",
+            "Report and Request",
+            "Reports and Requests",
+            "Reporting and Requests",
+            "Report management",
+            "Request management",
+            "feature request",
+            "bug report"
+        ],
+        "title": "Report & Request",
+        "icon": "las la-bug",
+        "route_name": "admin.request.report",
+        "menu_active": "admin.request.report"
+    }
+}
